@@ -552,7 +552,7 @@ for (let i = 0; i < findTd().length; i++) {
 
 const printTd = function () {
   for (let i = 0; i < findTd().length; i++) {
-    console.log(findTd()[i].textContent);
+    console.log(findTd()[i].textContent); // findTd() è la funzione precedentemente creata che restituisce tutti i tag "td"
   }
 };
 
