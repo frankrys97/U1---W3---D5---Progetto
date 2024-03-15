@@ -1,0 +1,87 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: radial-gradient(
+    circle at -20.44% 56.16%,
+    #ff00c1 0,
+    #ff00cc 12.5%,
+    #ff00d3 25%,
+    #ff00d4 37.5%,
+    #e700cf 50%,
+    #bc15c7 62.5%,
+    #9420c0 75%,
+    #6d27b9 87.5%,
+    #412cb2 100%
+  );
+  text-align: center;
+  padding: 20px 0;
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 2em;
+  color: #fff;
+}
+
+h3 {
+  margin-inline: 10px;
+  margin-block: 20px;
+  color: #a05a93;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+caption {
+  margin-block: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #a05a93;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+th {
+  background-color: #a05a93;
+  color: #fff;
+}
+
+#container {
+  padding: 20px;
+  width: 20%;
+  margin-inline: 10px;
+}
+
+#link {
+  margin-block: 30px;
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-inline: 10px;
+  }
+}
+ul {
+  margin: 0;
+}
+li {
+  width: 20%;
+  padding: 10px;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
